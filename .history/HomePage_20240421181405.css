@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    /* You can also host the font files locally and provide the path accordingly */
+  }
+
+  body{
+    font-family: 'Montserrat', sans-serif;
+    background:white;
+    color:#1C3F3A;
+    background-color: black;
+   
+  }  
+  .beforeNav{
+    background-color:#1C3F3A;
+    height: 35px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 12px;
+    
+  }
+  .Mainlogo{
+    height:100%;
+    width:15%;
+    background-color:aquamarine;
+  }
+  .Mainlogo img{
+    position:absolute;
+    height:150px;
+    width:200px;
+   
+  }
+  .navBar{
+    background-color:red;
+    height:65px;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    
+
+
+  }
+  .navBar ul{
+    background-color:yellow;
+    display: flex;
+    width:60%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+  }
+  .navBar ul li a{
+    text-decoration: none;
+  
+  }
+  .signin-out{
+    display:flex;
+    align-items:center;
+  
+   
+  }
+  .signin-out a{
+    text-decoration: none;
+    
+  }
+  .sign-in{
+    width:200px;
+    height:40px;
+    font-weight: 600;
+    margin-left:20px;
+    color:white;
+    background-color:#1C3F3A;
+    border-radius: 5px;
+  }

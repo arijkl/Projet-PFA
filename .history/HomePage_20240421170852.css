@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    /* You can also host the font files locally and provide the path accordingly */
+  }
+  body{
+    font-family: 'Montserrat', sans-serif;
+    background:white;
+  }  
+  .beforeNav{
+    background-color:red;
+    height: 30px;
+  }

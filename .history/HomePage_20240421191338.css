@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    /* You can also host the font files locally and provide the path accordingly */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: white;
+    color: #1C3F3A;
+
+
+}
+
+.beforeNav {
+    background-color: #1C3F3A;
+    height: 35px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 550;
+    font-size: 12px;
+
+}
+
+.Mainlogo {
+    height: 100%;
+    width: 15%;
+
+}
+
+.Mainlogo img {
+    position: absolute;
+    height: 100px;
+    width: 150px;
+
+}
+
+.navBar {
+
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+
+
+
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    list-style: none;
+    margin-right: 25%;
+    font-size: 17px;
+
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: #1C3F3A;
+
+
+
+}
+
+.signin-out {
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+    width: 15%;
+    
+
+
+}
+
+.signin-out a {
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.signin-out a:first-child {
+    color: #1C3F3A;
+
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 30px;
+    font-weight: 550;
+    margin-left: 10px;
+    color: white;
+    background-color: #1C3F3A;
+    border-radius: 15px;
+
+
+
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 700px;
+    height:700;
+    background-color:red;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width:300px;
+    background-color:yellow;
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width:300px;
+    background-color:yellow;
+}

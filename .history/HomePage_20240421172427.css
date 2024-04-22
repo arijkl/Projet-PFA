@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    /* You can also host the font files locally and provide the path accordingly */
+  }
+
+  body{
+    font-family: 'Montserrat', sans-serif;
+    background:white;
+    color:#1C3F3A;
+    background-color: black;
+   
+  }  
+  .beforeNav{
+    background-color:#1C3F3A;
+    height: 35px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 12px;
+    
+  }
+  .navBar{
+    background-color:red;
+    height:60px;
+    display:flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+  .navBar ul{
+    background-color:yellow;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }

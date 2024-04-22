@@ -1,0 +1,304 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    /* You can also host the font files locally and provide the path accordingly */
+}
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: white;
+    color: #1C3F3A;
+    height: 100vh; 
+    width: 100%;
+    position: relative;
+     
+}
+
+/*                                   Hero section                              */
+.beforeNav {
+    background-color: #1C3F3A;
+    height: 35px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 550;
+    font-size: 12px;
+
+}
+/*                                  navigation bar                              */
+.Mainlogo {
+    height: 100%;
+    width: 15%;
+
+}
+
+.Mainlogo img {
+    position: absolute;
+    height: 100px;
+    width: 150px;
+
+}
+
+.navBar {
+    
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease; 
+   
+
+}
+#navbar.shadow {
+    box-shadow: 0 2px 5px rgba(92, 85, 85, 0.262); 
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    list-style: none;
+    margin-right: 25%;
+    font-size: 17px;
+
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: #1C3F3A;
+
+
+
+}
+
+.signin-out {
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+    width: 15%;
+    
+
+
+}
+
+.signin-out a {
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.signin-out a:first-child {
+    color: #1C3F3A;
+
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 30px;
+    font-weight: 550;
+    margin-left: 10px;
+    color: white;
+    background-color: #1C3F3A;
+    border-radius: 15px;
+
+
+
+}
+/*                                  main content                           */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 80%;
+    margin-left: 50px;
+    margin-right: 61.5px;
+    margin-top:30px;
+   
+    z-index:777;
+}
+
+.left-container{
+    height: 100%;
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;  
+
+
+}
+.img-container{
+    background-color: transparent;
+    position:absolute;
+    left:0px;
+    top:230px;
+    height:70%;
+    width:900px;
+    
+    margin-left: 0px;
+    background-image : url(Assets/bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -999999;
+    
+   
+}
+/*      right content           */
+.right-container{
+    height: 100%;
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+.imgRight{
+   
+    height:500px;
+    width:570px;
+   
+}
+.right-container span{
+    display:flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    gap:15px;
+    margin-bottom:3%;
+    font-weight:bold;
+}
+/*      left content           */
+.hepls-you{
+    padding-top:30px;
+    margin-top:100px;
+    margin-left:17px;
+    font-size: 20px;
+    color:#098271;
+}
+.left-container h1{
+    
+    font-size:70px;
+    padding:3% ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#313028;
+    font-weight: 500;
+}
+.paraetbtn{
+    margin-bottom:120px;
+    padding: 20px;
+    color:#9B9B9B;
+    padding:3%;
+    font-size:30px;
+}
+.started-btn{
+    margin-top:15px;
+    margin-bottom: 20px;
+    height:60px;
+    width:200px;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    background-color:#1C3F3A;
+    border:none;
+    border-radius: 50px;
+   
+}
+/*                                  section logo societe                                    */
+.logo-societe-section{
+    
+    background-color:white;
+    height:120px;
+    margin-top:0%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    
+}
+hr{
+    width:80%;
+    color:#9B9B9B;
+}
+.sclg img{
+    height:300px;
+    width:300px;
+    
+}
+
+.sclg{
+    height:80%;
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+
+/*                                  footer                                    */
+footer{
+    
+    background-color:#1f312e;
+    height:30%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:center;
+    
+
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+    width:20%;
+}
+.icons button{
+    background-color:#1f312e;;
+    height:40px;
+    width:40px;
+    border:none;
+    box-shadow: 0px 0px 5px 0px rgba(148, 142, 142, 0.797);
+    border-radius:50%;
+}
+.icons button img{
+
+   height:100%;
+   width: auto;      
+}
+
+
+footer span{
+    background-color:#13201e;
+    width:100%;
+    height:30%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: large;
+}
+footer span a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
