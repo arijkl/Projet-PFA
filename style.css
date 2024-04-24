@@ -1,0 +1,130 @@
+*{padding:o;
+margin:0;
+box-sizing: border-box;
+}
+.service h2{
+    text-align: center;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    font-family: "Jost", sans-serif;
+    font-size:42px;
+    color: #1C3F3A;
+}
+.service {
+    font-family: "Jost", sans-serif;
+    background-color: #e8e8e8;
+    
+}
+.service h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    top: calc(170% + 1px);
+    left: calc(50% - 60px);
+  }
+.service h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #388f75;
+    top: 170%;
+    left: calc(50% - 20px);
+    
+  }
+.service p{
+    font-family: "Open sans",sans-serif ;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+}
+.service >p{
+    text-align: center;
+    font-size: large;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.jobs {
+    display:flex;
+    justify-content: center;
+    
+}
+.jobs div{
+    background-color: whitesmoke;
+    width: 270px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: 20px;
+    margin-top: 40px;
+    padding-top: 50px;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    transition-duration: 0.5s;
+    
+}
+.jobs div:hover{
+    margin-top: 30px !important;
+    transition-duration: 0.5s;
+    
+}
+.jobs div:hover h4{
+    color: #388f75 !important;
+}
+.jobs div p{
+    font-size: 14px;
+    margin-top: 10px; 
+    line-height: 20px;    
+}
+.jobs div h4{
+    font-weight: 500;
+    font-size: 28px;
+    color:#1e4539;
+    transition: ease-in-out 0.1s;
+}
+
+.IA h4{
+    font-size: 5px;
+    line-height: 25px; 
+
+}
+.IA{
+    padding-top: 15px !important;
+}
+.IA i{
+    color: #388f75;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+.FE{
+    
+    padding-top: 20px !important;
+}
+.job div:hover{
+    margin-bottom: 10px !important;
+}
+.fa-regular{
+    color: #388f75;
+    font-size: 36px;
+    margin-top: 20px;
+
+}
+.CS i{
+    color: #388f75;
+    font-size: 36px;
+    margin-bottom: 3px;
+}
+.CS{
+    padding-top: 33px !important;
+}
+.BE i{
+    color: #388f75;
+    font-size: 41px;
+    margin-bottom: 5px;
+}
+.BE{
+    padding-top: 35px !important;}
