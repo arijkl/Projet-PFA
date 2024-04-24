@@ -1,0 +1,90 @@
+*{padding:o;
+margin:0;
+box-sizing: border-box;
+}
+.service h2{
+    text-align: center;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    font-family: "Jost", sans-serif;
+    font-size:42px;
+    color: #1C3F3A;
+}
+.service {
+    font-family: "Jost", sans-serif;
+    background-color: #e8e8e8;
+    
+}
+.service h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    top: calc(170% + 1px);
+    left: calc(50% - 60px);
+  }
+.service h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #388f75;
+    top: 170%;
+    left: calc(50% - 20px);
+    
+  }
+.service p{
+    font-family: "Open sans",sans-serif ;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+}
+.service >p{
+    text-align: center;
+    font-size: large;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.jobs {
+    display:flex;
+    justify-content: center;
+    
+}
+.jobs div{
+    background-color: whitesmoke;
+    width: 270px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: 20px;
+    margin-top: 40px;
+    padding-top: 50px;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+.jobs div p{
+    font-size: 14px;
+    margin-top: 10px;    
+}
+.jobs div h4{
+    font-weight: 500;
+    font-size: 28px;
+    color:#256e58
+}
+.IA h4{
+    font-size: 20px;
+    
+}
+.IA{
+    padding-top: 15px !important;
+}
+.FE{
+    
+    padding-top: 50px !important;
+}
+.job div:hover{
+    margin-bottom: 10px  !important;
+}
